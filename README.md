@@ -7,6 +7,9 @@ Analizza la rete locale per cercare dispositivi con servizi aperti e rangiungibi
 - `Ricava la terna della rete locale in base all'ip del gateway sulla scheda di rete (di default).`
 - `Scansiona l'intera terna (0/255) cercando ip con la porta 80 aperta.`
 - `Su ogni ip che trova dai passaggi precedenti effettua un port scan sul range 0/9999.`
+- `Verifica accessibilità sulle porte http e rtsp.`
+- `Ricoscimento nomi servizi tcp.`
+
 
 Molto veloce negli scan grazie al multi-threading, arriva a scansionare **2.549.745** porte, suddivise in 255 ip.. **in meno di 30 secondi**.
 tutto in un singolo script python o file eseguibile Windows. 
